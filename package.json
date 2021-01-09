@@ -7,7 +7,7 @@
     "maintainers": [
         "Mike Dolghintev <yadolghintev@gmail.com>"
     ],
-    "version": "0.6.0",
+    "version": "0.7.0",
     "engines": {
         "vscode": "^1.52.0"
     },
