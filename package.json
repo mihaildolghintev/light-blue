@@ -2,6 +2,9 @@
     "name": "light-blue",
     "displayName": "Light-Blue",
     "description": "Light Blue Theme",
+    "maintainers": [
+        "Mike Dolghintev <yadolghintev@gmail.com>"
+    ],
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
@@ -17,5 +20,6 @@
                 "path": "./themes/light-blue-color-theme.json"
             }
         ]
-    }
+    },
+    "icon": "logo.png"
 }
