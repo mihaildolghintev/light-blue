@@ -2,6 +2,7 @@
     "name": "light-blue",
     "displayName": "Light-Blue",
     "description": "Light Blue Theme",
+    "license": "MIT",
     "maintainers": [
         "Mike Dolghintev <yadolghintev@gmail.com>"
     ],
@@ -21,5 +22,12 @@
             }
         ]
     },
-    "icon": "logo.png"
+    "icon": "logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mihaildolghintev/light-blue.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mihaildolghintev/light-blue/issues"
+    }
 }
