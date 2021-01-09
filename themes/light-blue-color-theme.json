@@ -140,7 +140,7 @@
     "list.activeSelectionForeground": "#000",
     "list.focusBackground": "#66cdaa",
     "list.focusForeground": "#2d2d2d",
-    "list.highlightForeground": "#FAD000",
+    "list.highlightForeground": "#000",
     "list.hoverBackground": "#cbf1f5",
     "list.hoverForeground": "#2d2d2d",
     "list.inactiveSelectionBackground": "#71c9ce",
@@ -218,7 +218,6 @@
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#2d2d2d"
       }
     },
@@ -231,7 +230,6 @@
         "source.clojure"
       ],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#fe0000"
       }
 	},
@@ -241,7 +239,6 @@
         "meta.expression.clojure",
       ],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#2d2d2d"
       }
 	},
@@ -251,7 +248,6 @@
 		  "meta.vector.clojure"
       ],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#2d2d2d"
       }
     },
@@ -263,7 +259,6 @@
         "support.class"
       ],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#7A3E9D"
       }
     },
@@ -278,7 +273,6 @@
       "name": "Sections",
       "scope": "entity.name.section",
       "settings": {
-        "fontStyle": "bold"
       }
     },
     {
@@ -385,7 +379,6 @@
       "name": "CSS: Important Keyword",
       "scope": "keyword.other.important",
       "settings": {
-        "fontStyle": "bold"
       }
     },
     {
