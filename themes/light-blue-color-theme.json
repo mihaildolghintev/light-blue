@@ -60,7 +60,7 @@
     // ——— Editor ———
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
     "editor.background": "#add8e6", // Editor background color.
-    "editor.foreground": "#1d1d1d", // Editor default foreground color.
+    "editor.foreground": "#000000", // Editor default foreground color.
     "editorLineNumber.foreground": "#5d5d5d", // Color of editor line numbers.
     "editorLineNumber.activeForeground": "#ff0000",
     "editorCursor.foreground": "#ff0000", //  Color of the editor cursor.
@@ -317,14 +317,14 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#91B3E0"
+        "foreground": "#0000cd"
       }
     },
     {
       "name": "HTML: Tag Names",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#4B83CD"
+        "foreground": "#0000cd"
       }
     },
     {
@@ -335,7 +335,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#91B3E0"
+        "foreground": "#fe0000"
       }
     },
     {
