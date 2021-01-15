@@ -211,14 +211,14 @@
       "name": "Variables",
       "scope": ["variable", "support.variable"],
       "settings": {
-        "foreground": "#2d2d2d"
+        "foreground": "#000000"
       }
     },
     {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#2d2d2d"
+        "foreground": "#000000"
       }
     },
     {
@@ -239,7 +239,7 @@
         "meta.expression.clojure",
       ],
       "settings": {
-        "foreground": "#2d2d2d"
+        "foreground": "#000000"
       }
 	},
     {
@@ -248,7 +248,7 @@
 		  "meta.vector.clojure"
       ],
       "settings": {
-        "foreground": "#2d2d2d"
+        "foreground": "#000000"
       }
     },
     {
