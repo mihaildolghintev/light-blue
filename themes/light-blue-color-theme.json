@@ -85,7 +85,7 @@
     // "editorError.border": "#EC3A37F5",
     "editorError.foreground": "#EC3A37F5",
     "editorWarning.border": "#FFFFFF00",
-    "editorWarning.foreground": "#FAD000",
+    "editorWarning.foreground": "#2d2d2d",
 
     // Gutter: The gutter contains the glyph margins and the line numbers:
     "editorGutter.addedBackground": "#35AD68",
@@ -249,6 +249,87 @@
       ],
       "settings": {
         "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Keyword operator Python",
+      "scope": [
+		  "keyword.operator.assignment.python"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Function Python",
+      "scope": [
+		  "storage.type.function.python"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "Function name Python",
+      "scope": [
+		  "entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#fe0000"
+      }
+    },
+    {
+      "name": "Class Python",
+      "scope": [
+      "storage.type.class.python",
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "Entity Name Python",
+      "scope": [
+      "entity.name.type.class.python",
+      ],
+      "settings": {
+        "foreground": "#fe0000"
+      }
+    },
+    {
+      "name": "Params Class Name Python",
+      "scope": [
+      "entity.other.inherited-class.python"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Comparision Python",
+      "scope": [
+		  "keyword.operator.comparison.python"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Constant Python",
+      "scope": [
+		  "constant.language.python"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Self Python",
+      "scope": [
+		  "variable.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#5d5d5d"
       }
     },
     {
