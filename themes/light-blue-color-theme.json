@@ -159,7 +159,15 @@
     "statusBarItem.activeBackground": "#add8ec",
     "statusBarItem.hoverBackground": "#cbf1f5",
     "statusBarItem.prominentBackground": "#add8ec",
-	"statusBarItem.prominentHoverBackground": "#add8ec",
+  "statusBarItem.prominentHoverBackground": "#add8ec",
+  
+  // Title bar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
+		"titleBar.activeBackground": "#add8e6",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.inactiveBackground": "#add8e6",
+		"titleBar.inactiveForeground": "#2d2d2d",
+		"widget.shadow": "#00000026",
 
 	
   },
