@@ -7,23 +7,23 @@
     "activityBar.background": "#add8e6",
     "activityBar.foreground": "#3d3d3d",
     "activityBar.inactiveForeground": "#5d5d5d",
-    "activityBarBadge.background": "#ff0000",
+    "activityBarBadge.background": "#fe0000",
     "activityBarBadge.foreground": "#fff",
     "activityBar.activeBorder": "#71c9ce",
     "activityBar.border": "#747373",
     "activityBar.activeBackground": "#71c9ce",
 
     // Debug Icons.
-    "debugIcon.startForeground": "#FAD000",
-    "debugIcon.continueForeground": "#FAD000",
-    "debugIcon.disconnectForeground": "#FAD000",
-    "debugIcon.pauseForeground": "#FAD000",
-    "debugIcon.restartForeground": "#3AD900",
-    "debugIcon.stepBackForeground": "#FAD000",
-    "debugIcon.stepIntoForeground": "#FAD000",
-    "debugIcon.stepOutForeground": "#FAD000",
-    "debugIcon.stepOverForeground": "#FAD000",
-    "debugIcon.stopForeground": "#EC3A37F5",
+    "debugIcon.startForeground": "#2d2d2d",
+    "debugIcon.continueForeground": "#2d2d2d",
+    "debugIcon.disconnectForeground": "#2d2d2d",
+    "debugIcon.pauseForeground": "#2d2d2d",
+    "debugIcon.restartForeground": "#66cdaa",
+    "debugIcon.stepBackForeground": "#2d2d2d",
+    "debugIcon.stepIntoForeground": "#2d2d2d",
+    "debugIcon.stepOutForeground": "#2d2d2d",
+    "debugIcon.stepOverForeground": "#2d2d2d",
+    "debugIcon.stopForeground": "#fe0000",
 
     // Sidebar.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
@@ -224,7 +224,14 @@
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "Support Functions",
+      "scope": ["storage.control.clojure"],
       "settings": {
         "foreground": "#000000"
       }
