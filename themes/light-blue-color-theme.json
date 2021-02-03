@@ -212,7 +212,7 @@
       "name": "Language Constants",
       "scope": ["constant.language", "support.constant", "variable.language"],
       "settings": {
-        "foreground": "#AB6526"
+        "foreground": "#fe0000"
       }
     },
     {
@@ -347,6 +347,95 @@
         "foreground": "#5d5d5d"
       }
     },
+    //TYPESCRIPT
+    {
+      "name": "Types TS",
+      "scope": ["storage.type.ts"],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Keyword operator new TS",
+      "scope": [
+		  "keyword.operator.new.ts"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Keyword operator = TS",
+      "scope": [
+		  "keyword.operator.assignment.ts"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Keyword operator : TS",
+      "scope": [
+		  "keyword.operator.type.annotation.ts"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "This TS",
+      "scope": [
+		  "variable.language.this.ts"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Class TS",
+      "scope": [
+		  "storage.type.class.ts"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "Class Name TS",
+      "scope": [
+		  "entity.name.type.class.ts"
+      ],
+      "settings": {
+        "foreground": "#fe0000"
+      }
+    },
+    {
+      "name": "Class inherit TS",
+      "scope": [
+		  "entity.other.inherited-class.ts"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Entity Name Type TS",
+      "scope": [
+		  "entity.name.type.ts"
+      ],
+      "settings": {
+        "foreground": "#fe0000"
+      }
+    },
+    {
+      "name": "Function name TS",
+      "scope": [
+		  "entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
     {
       "name": "Classes",
       "scope": [
@@ -457,7 +546,7 @@
       "name": "CSS: Property Names",
       "scope": ["meta.property-name", "support.type.property-name"],
       "settings": {
-        "foreground": "#AB6526"
+        "foreground": "#000000"
       }
     },
     {
