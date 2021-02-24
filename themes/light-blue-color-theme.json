@@ -159,19 +159,108 @@
     "statusBarItem.activeBackground": "#add8ec",
     "statusBarItem.hoverBackground": "#cbf1f5",
     "statusBarItem.prominentBackground": "#add8ec",
-  "statusBarItem.prominentHoverBackground": "#add8ec",
-  
-  // Title bar.
-		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
-		"titleBar.activeBackground": "#add8e6",
-		"titleBar.activeForeground": "#000000",
-		"titleBar.inactiveBackground": "#add8e6",
-		"titleBar.inactiveForeground": "#2d2d2d",
-		"widget.shadow": "#00000026",
+    "statusBarItem.prominentHoverBackground": "#add8ec",
 
-	
+    // Title bar.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
+    "titleBar.activeBackground": "#add8e6",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveBackground": "#add8e6",
+    "titleBar.inactiveForeground": "#2d2d2d",
+    "widget.shadow": "#00000026"
   },
   "tokenColors": [
+    {
+      "name": "Red font",
+      "scope": [
+        "keyword.operator",
+        "invalid.illegal",
+        "keyword.operator",
+        "constant.language",
+        "support.constant",
+        "variable.language",
+        "entity.name.type.ts",
+        "entity.name.type.class.ts",
+        "entity.name.type.class.python",
+        "entity.name.function.python",
+        "entity.global.clojure",
+        "meta.definition.global.clojure",
+        "meta.expression.clojure",
+        "source.clojure",
+        "variable.other.constant.js"
+      ],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "Blue font",
+      "scope": [
+        "entity.name.function.ts",
+        "storage.type.class.ts",
+        "storage.type.js",
+        "storage.type.class.python",
+        "storage.type.function.python",
+        "keyword",
+        "storage",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#0000cd"
+      }
+    },
+    {
+      "name": "Black font",
+      "scope": [
+        "variable",
+        "support.variable",
+        "entity.other.inherited-class.ts",
+        "variable.language.this.ts",
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.new.ts",
+        "storage.type.ts",
+        "constant.language.python",
+        "keyword.operator.comparison.python",
+        "entity.other.inherited-class.python",
+        "keyword.operator.assignment.python",
+        "meta.vector.clojure",
+        "storage.control.clojure",
+        "meta.expression.clojure",
+        "keyword.operator.assignment.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.rest.js",
+        "keyword.operator.spread.js",
+        "keyword.operator.logical.js",
+        "variable.language.this.js",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.operator.new.js",
+        "variable.language.arguments.js",
+        "keyword.operator.relational.js",
+        "keyword.operator.increment.js",
+        "keyword.operator.ternary.js",
+        "keyword.operator.expression.typeof.js",
+        "support.constant.math.js"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Purple font",
+      "scope": ["storage.type", "support.type"],
+      "settings": {
+        "foreground": "#7A3E9D"
+      }
+    },
+    {
+      "name": "Gray font",
+      "scope": ["variable.language.special.self.python"],
+      "settings": {
+        "foreground": "#6d6d6d"
+      }
+    },
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -181,268 +270,8 @@
       }
     },
     {
-      "name": "Invalid - Illegal",
-      "scope": "invalid.illegal",
-      "settings": {
-        "foreground": "#EC3A37F5"
-      }
-    },
-    {
-      "name": "Operators",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#ff0000"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": ["keyword", "storage"],
-      "settings": {
-        "foreground": "#0000cd"
-      }
-    },
-    {
-      "name": "Types",
-      "scope": ["storage.type", "support.type"],
-      "settings": {
-        "foreground": "#7A3E9D"
-      }
-    },
-    {
-      "name": "Language Constants",
-      "scope": ["constant.language", "support.constant", "variable.language"],
-      "settings": {
-        "foreground": "#fe0000"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": ["variable", "support.variable"],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": ["entity.name.function"],
-      "settings": {
-        "foreground": "#0000cd"
-      }
-    },
-    {
-      "name": "Support Functions",
-      "scope": ["storage.control.clojure"],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Function name",
-      "scope": [
-        "entity.global.clojure",
-        "meta.definition.global.clojure",
-        "meta.expression.clojure",
-        "source.clojure"
-      ],
-      "settings": {
-        "foreground": "#fe0000"
-      }
-	},
-    {
-      "name": "Function expression",
-      "scope": [
-        "meta.expression.clojure",
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-	},
-    {
-      "name": "Meta Vector Clojure",
-      "scope": [
-		  "meta.vector.clojure"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Keyword operator Python",
-      "scope": [
-		  "keyword.operator.assignment.python"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Function Python",
-      "scope": [
-		  "storage.type.function.python"
-      ],
-      "settings": {
-        "foreground": "#0000cd"
-      }
-    },
-    {
-      "name": "Function name Python",
-      "scope": [
-		  "entity.name.function.python"
-      ],
-      "settings": {
-        "foreground": "#fe0000"
-      }
-    },
-    {
-      "name": "Class Python",
-      "scope": [
-      "storage.type.class.python",
-      ],
-      "settings": {
-        "foreground": "#0000cd"
-      }
-    },
-    {
-      "name": "Entity Name Python",
-      "scope": [
-      "entity.name.type.class.python",
-      ],
-      "settings": {
-        "foreground": "#fe0000"
-      }
-    },
-    {
-      "name": "Params Class Name Python",
-      "scope": [
-      "entity.other.inherited-class.python"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Comparision Python",
-      "scope": [
-		  "keyword.operator.comparison.python"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Constant Python",
-      "scope": [
-		  "constant.language.python"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Self Python",
-      "scope": [
-		  "variable.language.special.self.python"
-      ],
-      "settings": {
-        "foreground": "#5d5d5d"
-      }
-    },
-    //TYPESCRIPT
-    {
-      "name": "Types TS",
-      "scope": ["storage.type.ts"],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Keyword operator new TS",
-      "scope": [
-		  "keyword.operator.new.ts"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Keyword operator = TS",
-      "scope": [
-		  "keyword.operator.assignment.ts"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Keyword operator : TS",
-      "scope": [
-		  "keyword.operator.type.annotation.ts"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "This TS",
-      "scope": [
-		  "variable.language.this.ts"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Class TS",
-      "scope": [
-		  "storage.type.class.ts"
-      ],
-      "settings": {
-        "foreground": "#0000cd"
-      }
-    },
-    {
-      "name": "Class Name TS",
-      "scope": [
-		  "entity.name.type.class.ts"
-      ],
-      "settings": {
-        "foreground": "#fe0000"
-      }
-    },
-    {
-      "name": "Class inherit TS",
-      "scope": [
-		  "entity.other.inherited-class.ts"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Entity Name Type TS",
-      "scope": [
-		  "entity.name.type.ts"
-      ],
-      "settings": {
-        "foreground": "#fe0000"
-      }
-    },
-    {
-      "name": "Function name TS",
-      "scope": [
-		  "entity.name.function.ts"
-      ],
-      "settings": {
-        "foreground": "#0000cd"
-      }
-    },
-    {
       "name": "Classes",
-      "scope": [
-        "entity.name.type",
-        "entity.other.inherited-class",
-        "support.class"
-      ],
+      "scope": ["entity.name.type", "entity.other.inherited-class", "support.class"],
       "settings": {
         "foreground": "#7A3E9D"
       }
@@ -457,8 +286,7 @@
     {
       "name": "Sections",
       "scope": "entity.name.section",
-      "settings": {
-      }
+      "settings": {}
     },
     {
       "name": "Numbers, Characters",
@@ -514,10 +342,7 @@
     },
     {
       "name": "HTML: Attribute Names",
-      "scope": [
-        "meta.tag entity.other.attribute-name",
-        "entity.other.attribute-name.html"
-      ],
+      "scope": ["meta.tag entity.other.attribute-name", "entity.other.attribute-name.html"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#fe0000"
@@ -532,12 +357,7 @@
     },
     {
       "name": "CSS: Selectors",
-      "scope": [
-        "meta.selector",
-        "meta.selector entity",
-        "meta.selector entity punctuation",
-        "entity.name.tag.css"
-      ],
+      "scope": ["meta.selector", "meta.selector entity", "meta.selector entity punctuation", "entity.name.tag.css"],
       "settings": {
         "foreground": "#7A3E9D"
       }
@@ -551,11 +371,7 @@
     },
     {
       "name": "CSS: Property Values",
-      "scope": [
-        "meta.property-value",
-        "meta.property-value constant.other",
-        "support.constant.property-value"
-      ],
+      "scope": ["meta.property-value", "meta.property-value constant.other", "support.constant.property-value"],
       "settings": {
         "foreground": "#448C27"
       }
@@ -563,8 +379,7 @@
     {
       "name": "CSS: Important Keyword",
       "scope": "keyword.other.important",
-      "settings": {
-      }
+      "settings": {}
     },
     {
       "name": "Markup: Changed",
