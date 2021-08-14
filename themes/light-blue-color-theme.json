@@ -173,9 +173,7 @@
     {
       "name": "Red font",
       "scope": [
-        "keyword.operator",
         "invalid.illegal",
-        "keyword.operator",
         "constant.language",
         "support.constant",
         "variable.language",
